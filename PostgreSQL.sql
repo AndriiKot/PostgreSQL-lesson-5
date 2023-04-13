@@ -7,6 +7,7 @@ from
 actor;
 
 select 
-	amail
+	email,
+        substring(email,1,strpos(email,'@') - 1)
 from
 	staff;
