@@ -1,0 +1,18 @@
+# PostgreSQL-lesson-5
+PostgreSQL Lesson 5
+```sql
+select 
+	first_name,
+	last_name,
+	upper(first_name),
+	lower(first_name)
+from 
+actor;
+
+select 
+	email,
+        substring(email,1,strpos(email,'@') - 1)
+from
+	staff;
+```
+
