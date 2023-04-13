@@ -1,5 +1,6 @@
 # PostgreSQL-lesson-5
 PostgreSQL Lesson 5
+
 ```sql
 select 
 	first_name,
@@ -7,7 +8,7 @@ select
 	upper(first_name),
 	lower(first_name)
 from 
-actor;
+        actor;
 
 select 
 	email,
